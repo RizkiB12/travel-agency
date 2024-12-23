@@ -112,3 +112,38 @@ header .navbar {
   color: var(--charcoal);
 }
 /* Home End */
+
+/* Review Start */
+#review {
+  max-width: 868px;
+  max-height: 135px;
+  background-color: var(--invert);
+  margin: -70px auto 0;
+  border: 1px solid var(--invert);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 16px;
+}
+
+.review .review-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+}
+
+.review-one h2 {
+  font-family: "Montserrat", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  color: var(--charcoal);
+}
+
+.review-one p {
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 0.5rem;
+}
+/* Review End */
