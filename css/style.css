@@ -147,3 +147,38 @@ header .navbar {
   margin-top: 0.5rem;
 }
 /* Review End */
+
+/* About Start */
+#about {
+  padding: 5em 8%;
+}
+
+.about .about-section {
+  display: flex;
+}
+
+.about .about-section .about-title {
+  padding-right: 20rem;
+}
+
+.about .about-section .about-title p {
+  color: #333333b2;
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.about .about-section .about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about .about-section .about-description p {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--charcoal);
+}
+/* About End */
