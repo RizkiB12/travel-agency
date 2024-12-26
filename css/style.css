@@ -16,7 +16,6 @@
 body {
   background-color: var(--invert);
   color: var(--charcoal);
-  min-height: 5000px;
 }
 
 /* Header Start */
@@ -38,7 +37,7 @@ header .navbar {
 /* Header End */
 
 /* Home Start */
-.content .home {
+.home {
   background-image: url(/assets/HeroBackgroundDesktop.png);
   object-fit: cover;
   background-position: center;
@@ -78,7 +77,8 @@ header .navbar {
   gap: 1rem;
 }
 
-.home .home-button .btn {
+.home .home-button .btn,
+footer .footer-section .btn {
   font-family: "Montserrat", serif;
   font-weight: 700;
   color: var(--charcoal);
@@ -89,7 +89,8 @@ header .navbar {
   transition: ease-in-out 0.4s;
 }
 
-.home .home-button .btn:hover {
+.home .home-button .btn:hover,
+footer .footer-section .btn:hover {
   background-color: transparent;
   outline: 1px solid var(--invert);
   color: var(--invert);
@@ -245,4 +246,33 @@ header .navbar {
 aside img {
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(/assets/backgroundAdventuree.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-section {
+  max-width: 800px;
+  max-height: 300px;
+  text-align: center;
+}
+
+footer .footer-section h2 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 77px;
+  color: var(--invert);
+  margin-bottom: 2rem;
 }
