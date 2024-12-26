@@ -30,7 +30,7 @@ Figma Design: [Travel Web Agency](https://www.figma.com/design/ZpJD4tw8FNN7QuyWa
 │   └── style.css       # File CSS utama untuk styling
 ├── js
 │   └── script.js       # File JavaScript untuk interaktivitas
-├── images              # Folder untuk gambar yang digunakan di website
+├── assets              # Folder untuk gambar yang digunakan di website
 ├── README.md           # Dokumentasi proyek
 ```
 
